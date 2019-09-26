@@ -19,3 +19,6 @@
 	<!-- 声明需要暴露的服务接口 -->
 	<dubbo:service interface="com.taotao.cart.service.CartService" ref="cartServiceImpl" timeout="300000"/>
 </beans>
+
+
+<!-- 看到我吗 -->
