@@ -1,0 +1,8 @@
+0:0:0:0:0:0:0:1 - - [23/Jun/2017:11:09:28 +0800] "GET /page/login?redirect=http://localhost:8092/order/order-cart.html HTTP/1.1" 200 4123 http-bio-8088-exec-1 614
+0:0:0:0:0:0:0:1 - - [23/Jun/2017:11:09:28 +0800] "GET /favicon.ico HTTP/1.1" 404 949 http-bio-8088-exec-2 4
+0:0:0:0:0:0:0:1 - - [23/Jun/2017:11:10:12 +0800] "POST /user/login HTTP/1.1" 200 82 http-bio-8088-exec-3 130
+0:0:0:0:0:0:0:1 - - [23/Jun/2017:11:28:01 +0800] "GET /user/token/49bcf98a-af81-4b12-bcb1-6e0f3ed606a8?callback=jQuery642327&_=1498188481678 HTTP/1.1" 200 178 http-bio-8088-exec-5 16
+0:0:0:0:0:0:0:1 - - [23/Jun/2017:12:43:30 +0800] "GET /user/token/49bcf98a-af81-4b12-bcb1-6e0f3ed606a8?callback=jQuery8158439&_=1498193010432 HTTP/1.1" 200 65 http-bio-8088-exec-7 4
+0:0:0:0:0:0:0:1 - - [23/Jun/2017:12:43:32 +0800] "GET /page/login HTTP/1.1" 200 4080 http-bio-8088-exec-8 7
+0:0:0:0:0:0:0:1 - - [23/Jun/2017:12:43:39 +0800] "POST /user/login HTTP/1.1" 200 82 http-bio-8088-exec-9 7
+0:0:0:0:0:0:0:1 - - [23/Jun/2017:12:43:40 +0800] "GET /user/token/20c1f7f3-0872-461b-b1a2-833668bef36e?callback=jQuery5034654&_=1498193020414 HTTP/1.1" 200 179 http-bio-8088-exec-10 4
