@@ -8,8 +8,10 @@ import org.springframework.stereotype.Service;
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.taotao.common.pojo.EasyUIDataGridResult;
+import com.taotao.common.pojo.TaotaoResult;
 import com.taotao.mapper.TbItemMapper;
 import com.taotao.pojo.TbItem;
+import com.taotao.pojo.TbItemDesc;
 import com.taotao.pojo.TbItemExample;
 import com.taotao.service.ItemService;
 
@@ -38,6 +40,21 @@ private TbItemMapper mapper;
 		result.setRows(list);
 		//7.返回
 		return result;
+	}
+	@Override
+	public TaotaoResult saveItem(TbItem item, String desc) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public TbItem getItemById(Long itemId) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	@Override
+	public TbItemDesc getItemDescById(Long itemId) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }
